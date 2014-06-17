@@ -1,7 +1,11 @@
-prompt = "> "
+# Write a program that asks the user for their name, and then prints out
+# "Hello [name]!"
 
-puts "What is your name?"
-print prompt
+
+print "What is your name?:  "
+
 name = gets.chomp()
 
-puts "Hello, #{name}."
+puts "Hello #{name}... you're a dork!"
+
+
